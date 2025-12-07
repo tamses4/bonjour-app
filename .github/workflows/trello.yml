@@ -36,7 +36,7 @@ jobs:
           curl -X PUT "https://api.trello.com/1/cards/${{ steps.extract.outputs.card_id }}" \
             -d "key=${{ secrets.TRELLO_API_KEY }}" \
             -d "token=${{ secrets.TRELLO_TOKEN }}" \
-            -d "idList=${{ secrets.TRELLO_LIST_EN_REVUE }}"
+            -d "idList=${{ secrets.TRELLO_TERMINE }}"
 
       # 4) (Optionnel) Notification Slack
       - name: Send Slack notification
