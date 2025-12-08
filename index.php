@@ -5,7 +5,7 @@
 </head>
 <body>
 
-<h2>Formulaire Bonjour</h2>
+<h2>Formulaire Bonjour Par Tamar</h2>
 
 <form action="traitement.php" method="POST">
     <label>Nom :</label>
